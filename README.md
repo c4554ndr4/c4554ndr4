@@ -1,41 +1,55 @@
+(AI-assisted writeup)
+
 My github projects are presented with AI-assisted writing that I've reviewed. If you would like to check out my fully-human thoughts on my projects, please see my personal website [cassie.mccoy.world](https://cassie.mccoy.world)
 
 # Cassandra Melax
 
-I work on agentic applications, human–AI interaction, and the research tools needed to understand how these systems behave. My projects connect high-level architecture with concrete user experiences: persistent assistants, guided browsing, evidence-based evaluation, and hands-on adversarial research.
+I work on agentic applications and human–AI interaction. I am interested in how an agent decides whose preferences to follow, what it remembers, and what evidence would let someone else check its claims.
 
 ## Selected projects
 
-### [Emergent Edge](https://emergent-edge-case-ai-use-detector.vercel.app) · Interaction research
+### [Scout Browser](https://github.com/c4554ndr4/nextgen_browser_app) · Decentralized alignment
 
-A pipeline for studying edge-case user behavior in AI interactions. It turns reports into evidence-backed case cards, retrieves useful comparisons, and distinguishes known patterns from variations and possible new patterns. The architecture separates extraction, retrieval, model judgment, and decision rules so a reviewer can trace a conclusion back to its evidence.
+A parent and child can want different things from the same browsing agent. My 2025 Scout research examined how family guidance, a child's interests, and evaluations of search strategies could shape discovery over time. The desktop browser builds on FreeTube and connects guidance to suggestions, metadata review, and checks of available captions and sampled frames. Its README distinguishes that implementation from the broader research design.
 
-[Explore the live walkthrough](https://emergent-edge-case-ai-use-detector.vercel.app) · Fictional examples; public source package in preparation.
+[Read the project](https://github.com/c4554ndr4/nextgen_browser_app#readme) · [Research essay](https://cassie.mccoy.world/publish/Research/Alignment%20Write-Ups/Decentralized%20Alignment%20in%20Web%20Agents%20Serving%20Parent-Child%20User%20Pairs)
 
-### [Discord Symbiont](https://github.com/c4554ndr4/Discord_Symbiont) · Persistent assistant
+### [Emergent Edge](https://github.com/c4554ndr4/emergent-edge) · Evidence and novel behavior
 
-A Discord application combining conversation context, semantic memory, model routing, budget tracking, and tool dispatch. The public repository contains the core of my 2025 implementation.
+Different language can describe the same mechanism; similar language can conceal an important difference. Emergent Edge turns interaction reports into case cards, retrieves comparisons, and checks proposed interpretations against evidence requirements. The public case browser presents 51 edited research summaries, organized for exploration.
 
-### Scout Browser · Guided discovery
+[Explore the cases](https://emergent-edge-case-ai-use-detector.vercel.app) · [Read the project](https://github.com/c4554ndr4/emergent-edge#readme)
 
-A desktop video browser exploring how parental guidance can shape search and viewing. Scout adds AI-assisted suggestions, metadata review, and checks of available captions and sampled frames to the FreeTube client. My contribution focuses on connecting those checks to the browsing experience; the underlying video client builds on FreeTube’s work.
+### [The Bad Timeline](https://github.com/c4554ndr4/the-bad-timeline) · Cognitive insecurity
 
-*Public source package in preparation; retains FreeTube’s AGPL license.*
+A Twitter replica we built for DEF CON, originally using Kimi-K2 on Groq. Likes and stated preferences shape the next batch of posts, alongside an operator-defined objective. One generation process appears as many authors: a personalized feed can make an operator's position feel like independent social agreement. The README explains that mechanism, the responsiveness goal, and the differences between the original demonstration and later implementation.
 
-### GlyphCraft · Coding-agent red-team research
+[Read the project](https://github.com/c4554ndr4/the-bad-timeline#readme)
 
-The workspace for my manual adversarial evaluation of coding-agent behavior. Starting from my own threat modeling, I examined how authorization and safety boundaries held up as an agent moved from planning to tool creation and consequential actions against systems I own.
+### [SymWrite](https://github.com/c4554ndr4/sym-write) · Memory and authorship
 
-*Research write-up in preparation.*
+Which parts of someone's earlier writing should influence their next thought? SymWrite retrieves a small set of excerpts, explores five continuations in parallel, and offers an optional refinement beside those alternatives. The writer can inspect the selected context and decide what enters the draft.
 
-### [Personal Site Dungeon Crawler](https://github.com/c4554ndr4/portfolio) · Playable portfolio
+[Read the project and examples](https://github.com/c4554ndr4/sym-write#readme)
 
-I built a dungeon crawler as an interactive home for my writing and projects. Visitors explore a pixel-art room, move around obstacles, fire projectiles, and enter animated portals that open essays and project links. The implementation connects a tile-based world, movement and collision handling, projectile behavior, and proximity-aware portal interactions with the website's content and navigation.
+### [Living Dreaming Symbionts](https://github.com/c4554ndr4/living-dreaming-symbionts) · Verifiable outcomes
 
-[Play the dungeon crawler](https://c4554ndr4.github.io/portfolio/) · [Personal website](https://cassie.mccoy.world) · [Game implementation](https://github.com/c4554ndr4/portfolio/blob/main/src/game/main.ts)
+A research toolkit for checking structured evidence against an agreed goal and producing an independently verifiable receipt. A valid proof can say that the goal was not met. The architecture separates correctness of the calculation from the harder questions of whether the evidence is true, complete, or attributable to an agent.
+
+[Read the project](https://github.com/c4554ndr4/living-dreaming-symbionts#readme)
+
+### [Discord Symbiont](https://github.com/c4554ndr4/Discord_Symbiont) · Persistent assistants
+
+My 2025 Discord application combines conversation context, semantic memory, model routing, tool dispatch, and budget tracking. It is a useful sample of the surrounding architecture needed to make model interactions persist across conversations.
+
+### [Personal Site Dungeon Crawler](https://github.com/c4554ndr4/portfolio) · Playable navigation
+
+A small dungeon serves as the entrance to my writing and projects. Proximity reveals a portal's destination; entering it opens an ordinary website page. A direct Link View reaches the same content. The interesting connection is between movement through a room and navigation through ideas.
+
+[Play the dungeon crawler](https://c4554ndr4.github.io/portfolio/) · [Read the project](https://github.com/c4554ndr4/portfolio#readme)
 
 ### [Lens-flare rendering](https://github.com/aatifjiwani/lens-flare/commit/7b150f825bb59a46ca9ac9ef3645738dcec23d8c) · Graphics algorithms
 
-My contribution to a team graphics project: ghost-sprite rendering through barycentric interpolation, textured-triangle rasterization, blending, and geometric transforms.
+My contribution to a team graphics project: ghost-sprite rendering through barycentric interpolation, textured-triangle rasterization, blending, and geometric transforms. The link points to my specific contribution.
 
-These samples span individual projects and team contributions. The links and descriptions identify my contribution where a project builds on collaborators or an existing application.
+These samples include individual projects, team contributions, and work built on existing applications. The READMEs identify those boundaries, distinguish original research from later restoration, and describe what I would improve next. Several public repositories begin with reviewed snapshots; their first public commit dates are not the dates the projects began.
