@@ -6,11 +6,11 @@ I work on agentic applications, human–AI interaction, and the research tools n
 
 ## Selected projects
 
-### Emergent Edge · Interaction research
+### [Emergent Edge](https://emergent-edge-case-ai-use-detector.vercel.app) · Interaction research
 
 A pipeline for studying edge-case user behavior in AI interactions. It turns reports into evidence-backed case cards, retrieves useful comparisons, and distinguishes known patterns from variations and possible new patterns. The architecture separates extraction, retrieval, model judgment, and decision rules so a reviewer can trace a conclusion back to its evidence.
 
-*Public source package in preparation.*
+[Explore the live walkthrough](https://emergent-edge-case-ai-use-detector.vercel.app) · Fictional examples; public source package in preparation.
 
 ### [Discord Symbiont](https://github.com/c4554ndr4/Discord_Symbiont) · Persistent assistant
 
