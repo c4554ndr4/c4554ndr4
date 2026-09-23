@@ -6,7 +6,7 @@ I work on agentic applications, human–AI interaction, and the research tools n
 
 ## Selected projects
 
-### [Cassandra Dungeon](https://github.com/c4554ndr4/portfolio) · Playable portfolio
+### [Personal Site Dungeon Crawler](https://github.com/c4554ndr4/portfolio) · Playable portfolio
 
 I built a dungeon crawler as an interactive home for my writing and projects. Visitors explore a pixel-art room, move around obstacles, fire projectiles, and enter animated portals that open essays and project links. The implementation connects a tile-based world, movement and collision handling, projectile behavior, and proximity-aware portal interactions with the website's content and navigation.
 
