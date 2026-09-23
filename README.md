@@ -1,10 +1,16 @@
-(AI assisted writing)
+My github projects are presented with AI-assisted writing that I've reviewed. If you would like to check out my fully-human thoughts on my projects, please see my personal website [cassie.mccoy.world](https://cassie.mccoy.world)
 
 # Cassandra Melax
 
 I work on agentic applications, human–AI interaction, and the research tools needed to understand how these systems behave. My projects connect high-level architecture with concrete user experiences: persistent assistants, guided browsing, evidence-based evaluation, and hands-on adversarial research.
 
 ## Selected projects
+
+### [Cassandra Dungeon](https://github.com/c4554ndr4/portfolio) · Playable portfolio
+
+I built a dungeon crawler as an interactive home for my writing and projects. Visitors explore a pixel-art room, move around obstacles, fire projectiles, and enter animated portals that open essays and project links. The implementation connects a tile-based world, movement and collision handling, projectile behavior, and proximity-aware portal interactions with the website's content and navigation.
+
+[Personal website](https://cassie.mccoy.world) · [Game implementation](https://github.com/c4554ndr4/portfolio/blob/main/src/game/main.ts)
 
 ### Emergent Edge · Interaction research
 
