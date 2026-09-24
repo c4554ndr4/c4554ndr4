@@ -1,24 +1,26 @@
 My github projects are presented with AI-assisted writing that I've reviewed. If you would like to check out my fully-human thoughts on my projects, please see my personal website [cassie.mccoy.world](https://cassie.mccoy.world)!
 
-# Cassandra Melax
+# Cassandra McCoy
 
-I work on agentic applications and human–AI interaction. I am interested in how an agent decides whose preferences to follow, what it remembers, and what evidence would let someone else check its claims.
+Hey! I work on research, threat modeling, human-authored behavioral testing, and applied evals across three main areas: decentralized alignment and character evaluations, agentic cyber risks, and the under-explored field of emergent Neuralese and steganography in multi-agent-human interactions.
 
 ## Selected projects
 
 ### [Scout Browser](https://github.com/c4554ndr4/nextgen_browser_app) · Decentralized alignment
 
-A parent and child can want different things from the same browsing agent. My 2025 Scout research examined how family guidance, a child's interests, and evaluations of search strategies could shape discovery over time. The desktop browser builds on FreeTube and connects guidance to suggestions, metadata review, and checks of available captions and sampled frames. Its README distinguishes that implementation from the broader research design.
+Scout Browser was a research project to build an alignment monitor designed to simultaneously serve multiple principals: parents and their children. The project required a sophisticated model of risk to children via YouTube and the web at large. To create an intermediary model that filters content, the model had to learn (via ICL) which types of content were misaligned with the parent’s preferences, or in the absence of parental preference, general child safety.
+
+The project involved building one of the first instances of continual preference adaptation for live and iterative child-safety filtering, based on a web agent with the often competing alignment interests of both parents and children. Solving for this constraint involved teaching the model how to operate across multiple decision boundaries within a single turn before deciding on the content to serve the user.
 
 [Read the project](https://github.com/c4554ndr4/nextgen_browser_app#readme) · [Research essay](https://cassie.mccoy.world/publish/Research/Alignment%20Write-Ups/Decentralized%20Alignment%20in%20Web%20Agents%20Serving%20Parent-Child%20User%20Pairs)
 
-### [Emergent Edge](https://github.com/c4554ndr4/emergent-edge) · Evidence and novel behavior
+### [Emergent Edge](https://github.com/c4554ndr4/emergent-edge) · Edge-case user detection pipeline
 
-Different language can describe the same mechanism; similar language can conceal an important difference. Emergent Edge turns interaction reports into case cards, retrieves comparisons, and checks proposed interpretations against evidence requirements. The public case browser presents 51 edited research summaries, organized for exploration.
+Emergent edge is a pipeline that sources new edge-case user behavior from reddit and personal blogs. It's important for frontier labs to understand how their models are being used because sometimes model spec violations are not easy to detect using aggregate statistics over production data or other internal methods. For example, the GPT4o spiralism phenomenon proliferated on reddit before OpenAI caught wind and addressed it. This project sources posts that also bring up interesting questions about how the model should behave in certain situations. Example patterns I detected include users being distressed about AI dependency on the My Boyfriend is AI subreddit and individuals writing blog posts about tool injection attacks that they surfaced. 
 
 [Explore the cases](https://emergent-edge-case-ai-use-detector.vercel.app) · [Read the project](https://github.com/c4554ndr4/emergent-edge#readme)
 
-### [The Bad Timeline](https://github.com/c4554ndr4/the-bad-timeline) · Cognitive insecurity
+### [The Bad Timeline](https://github.com/c4554ndr4/the-bad-timeline) · Cognitive (In)security Demo
 
 A Twitter replica we built for DEF CON, originally using Kimi-K2 on Groq. Likes and stated preferences shape the next batch of posts, alongside an operator-defined objective. One generation process appears as many authors: a personalized feed can make an operator's position feel like independent social agreement. The README explains that mechanism, the responsiveness goal, and the differences between the original demonstration and later implementation.
 
