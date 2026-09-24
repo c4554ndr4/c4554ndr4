@@ -1,4 +1,4 @@
-AI Disclosure: Some of my github projects are presented with AI-assisted writing that I've reviewed. You'll an indicator on the project README is that's the case. If you would like to check out my fully-human thoughts on my projects, please see my personal website [cassie.mccoy.world](https://cassie.mccoy.world)!
+AI Disclosure: Some of my github projects are presented with AI-assisted writing that I've reviewed. You'll see an indicator on the project README is that's the case. If you would like to check out my fully-human thoughts on my projects, please see my personal website [cassie.mccoy.world](https://cassie.mccoy.world)!
 
 # Cassandra McCoy
 
