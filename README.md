@@ -56,8 +56,8 @@ A small dungeon serves as the entrance to my writing and projects. Proximity rev
 
 [Play the dungeon crawler](https://c4554ndr4.github.io/portfolio/) · [Read the project](https://github.com/c4554ndr4/portfolio#readme)
 
-### [Lens-flare rendering](https://github.com/aatifjiwani/lens-flare/commit/7b150f825bb59a46ca9ac9ef3645738dcec23d8c) · Graphics algorithms
+### [Lens-flare ray tracing](https://github.com/c4554ndr4/lens_flare_demo/blob/9579e7fc5e181089e3c993537360516fda6f668c/camera_model.ipynb) · Graphics algorithms
 
-My contribution to a team graphics project: ghost-sprite rendering through barycentric interpolation, textured-triangle rasterization, blending, and geometric transforms. The link points to my specific contribution.
+I implemented ray and ghost tracing in Python/NumPy for a Spring 2021 graphics project based on [Physically-Based Real-Time Lens Flare Rendering](https://resources.mpi-inf.mpg.de/lensflareRendering/) (Hullin et al., SIGGRAPH 2011). My notebook explores optical transfer matrices, two-reflection ghost paths, wavelength-dependent refraction, and aperture handling. The link points directly to my IPython notebook implementation.
 
 These samples include individual projects, team contributions, and work built on existing applications. The READMEs identify those boundaries, distinguish original research from later restoration, and describe what I would improve next. Several public repositories begin with reviewed snapshots; their first public commit dates are not the dates the projects began.
