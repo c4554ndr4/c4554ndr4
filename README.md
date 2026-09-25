@@ -6,6 +6,14 @@ Hey! I work on research, threat modeling, human-authored behavioral testing, and
 
 ## Selected projects
 
+### [MoE Circuit Discovery](https://github.com/c4554ndr4/moe-circuit-discovery) · Neural circuit discovery
+
+MoE circuit discovery is a toolkit to identify a small set of neurons involved in a behavior from 10–50 examples. On my original adult overrefusal sample, measured refusals dropped from 72% to 0% on a held-out test set. A later replication with reconstructed neuron masks found no clear aggregate regression from baseline on a 570-question MMLU subset; a lower refusal rate does not necessarily mean a completed answer.
+
+I tried a few methods of selecting neurons only from experts whose routing looked refusal related, using learned expert selection, but found that simply selecting the strongest contrast-ranked neurons worked best among the methods I tested.
+
+[Read the project](https://github.com/c4554ndr4/moe-circuit-discovery#readme)
+
 ### [Scout Browser](https://github.com/c4554ndr4/nextgen_browser_app) · Decentralized alignment
 
 Scout Browser was a research project to build an alignment monitor designed to simultaneously serve multiple principals: parents and their children. The project required a sophisticated model of risk to children via YouTube and the web at large. To create an intermediary model that filters content, the model had to learn (via ICL) which types of content were misaligned with the parent’s preferences, or in the absence of parental preference, general child safety.
